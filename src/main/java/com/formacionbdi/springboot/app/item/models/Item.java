@@ -3,6 +3,12 @@ package com.formacionbdi.springboot.app.item.models;
 
 public class Item {
 
+	public Item() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
 	private Producto producto;
 	private Integer cantidad;
 
