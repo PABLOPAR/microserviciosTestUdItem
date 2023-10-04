@@ -2,20 +2,17 @@ package com.formacionbdi.springboot.app.item.models;
 
 import java.util.Date;
 
-
-
 public class Producto {
-
+	
 	private Long id;
 	private String nombre;
 	private Double precio;
-	private Date create_at;
+	private Date createAt;
 	private Integer port;
+	
 	public Long getId() {
 		return id;
 	}
-	
-	
 	public void setId(Long id) {
 		this.id = id;
 	}
@@ -31,27 +28,19 @@ public class Producto {
 	public void setPrecio(Double precio) {
 		this.precio = precio;
 	}
-	public Date getCreate_at() {
-		return create_at;
+	public Date getCreateAt() {
+		return createAt;
 	}
-	public void setCreate_at(Date create_at) {
-		this.create_at = create_at;
+	public void setCreateAt(Date createAt) {
+		this.createAt = createAt;
 	}
-
-
-	@Override
-	public String toString() {
-		return "Producto [id=" + id + ", nombre=" + nombre + ", precio=" + precio + ", create_at=" + create_at + "]";
-	}
-
-
 	public Integer getPort() {
 		return port;
 	}
-
-
 	public void setPort(Integer port) {
 		this.port = port;
 	}
+	
+	
 
 }
