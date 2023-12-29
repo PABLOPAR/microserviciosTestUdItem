@@ -16,6 +16,6 @@ public interface ProductoClienteRest {
 	
 	
 	@GetMapping("/ver/{id}")
-	public Producto detalle(@PathVariable Long id);
+	public Producto detalle(@PathVariable ("id") Long id);
 
 }
